@@ -28,3 +28,5 @@ def two_sum_set(nums, target):
 
 Compare the two solutions, and discuss reasons why you might prefer one over the other. Can you think of any other solutions?
 
+#Answer:
+I would prefer the second solution to the first one, due to the fact that sets are immutable while list are mutable. Mathematical operations are best done with sets where the values will stay constant, especially in this use case where there is a set target that the function is trying to achieve.
